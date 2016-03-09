@@ -1,0 +1,19 @@
+    1  apt-get update
+    2  nano /etc/apt/sources.list
+    3  apt-get update
+    4  nano /etc/apt/sources.list
+    5  apt-get update
+    6  xclear
+    7  clear
+    8  apt-get install samba
+    9  nano /etc/samba/smb.conf 
+   10  ifconfig
+   11  ls -l
+   12  mkdir compartida
+   13  chmod 757 compartida/
+   14  mkdir examen
+   15  cd examen/
+   16  mkdir actividad1
+   17  cd actividad1/
+   18  cp /etc/samba/smb.conf smb.conf
+   19  history > act1.txt
