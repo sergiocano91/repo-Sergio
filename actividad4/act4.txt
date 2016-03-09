@@ -1,0 +1,80 @@
+    1  mysql -u root -p
+    2  apt-get install mysql-server
+    3  clear
+    4  mysql -u root -p
+    5  mysql -u userFtp -p
+    6  cd /home/
+    7  mkdir escuela
+    8  cd escuela/
+    9  mkdir profesor
+   10  mkdir delegado
+   11  mkdir alumno
+   12  chown -R 1200:1500 profesor/
+   13  chown -R 1201:1500 delegado/
+   14  chown -R 1202:1500 alumno/
+   15  ls -l
+   16  apt-get install proftpd
+   17  apt-get install proftpd-mod-mysql
+   18  cd /etc/proftpd/
+   19  ls -l
+   20  nano proftpd.conf 
+   21  ls -l
+   22  nano modules.conf 
+   23  ls -l
+   24  nano sql.conf 
+   25  sh /etc/init.d/proftpd restart
+   26  journarctl -xn
+   27  cat journarctl -xn
+   28  nano /var/log/proftpd/
+   29  clear
+   30  cd /var/log/proftpd/proftpd.log 
+   31  nano /var/log/proftpd/proftpd.log 
+   32  clear
+   33  sh /etc/init.d/proftpd start
+   34* 
+   35  ls -l
+   36  nano sql.conf 
+   37  sh /etc/init.d/proftpd start
+   38* sh /etc/init.d/proftpd start
+   39  journarctl
+   40  journalctl
+   41  nano sql.conf 
+   42  sh /etc/init.d/proftpd start
+   43  journalctl -xn
+   44  nano sql.conf 
+   45  mysql -u userFtp -p
+   46  nano sql.conf 
+   47  mysql -u userFtp -p
+   48  sh /etc/init.d/proftpd start
+   49  ftp localhost
+   50  ftp localhost
+   51  ftp localhost
+   52  nano sql.conf 
+   53  nano sql.conf 
+   54  sh /etc/init.d/proftpd restart
+   55  ftp localhost
+   56  nano sql.conf 
+   57  sh /etc/init.d/proftpd restart
+   58  ls -l /home/escuela
+   59  nano sql.conf 
+   60  sh /etc/init.d/proftpd restart
+   61  ftp localhost
+   62  nano sql.conf 
+   63  sh /etc/init.d/proftpd restart
+   64  ftp localhost
+   65  nano modules.conf 
+   66  mysql -u userFtp -p
+   67  nano sql.conf 
+   68  sh /etc/init.d/proftpd restart
+   69  ftp localhost
+   70  nano proftpd.conf 
+   71  sh /etc/init.d/proftpd restart
+   72  ftp localhost
+   73  nano proftpd.conf 
+   74  cd /home/daw2/examen/
+   75  mkdir actividad4
+   76  cd actividad4
+   77  cp /etc/proftpd/proftpd.conf proftpd.conf
+   78  cp /etc/proftpd/modules.conf modules.conf
+   79  cp /etc/proftpd/sql.conf sql.conf
+   80  history > act4.txt
