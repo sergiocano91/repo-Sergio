@@ -1,0 +1,15 @@
+    1  apt-get -s install apache2
+    2  apt-get install apache2
+    3  sh /etc/init.d/apache2 start
+    4  cd /etc/apache2/mods-available/
+    5  a2enmod ssl
+    6  cd ../sites-available/
+    7  ls -l
+    8  nano default-ssl.conf 
+    9  a2ensite default-ssl.conf 
+   10  service apache2 restart
+   11  cd /home/daw2/examen/
+   12  mkdir actividad2
+   13  cd actividad
+   14  cd actividad2
+   15  history > act2.txt
